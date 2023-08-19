@@ -1,0 +1,139 @@
+.nav {
+    background-color: #323334;
+    padding: 10px 25px;
+}
+
+nav {
+    width: 100%;
+    height: 80px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+nav h1 {
+    color: white;
+    font-size: 35px;
+    margin-left: 25px;
+}
+
+nav h1 span {
+    color: #FF4343;;
+}
+
+nav input {
+    margin-right: 150px;
+    border: 1px solid #FF4343;;
+    border-radius: 5px;
+    height: 25px;
+    background: none;
+    padding: 5px 15px;
+    width: 250px;
+}
+
+nav input::placeholder {
+    color: white;
+    font-size: 18px;
+}
+
+.btns {
+    padding-top: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+
+.btns button {
+    background-color: #FF4343;
+    color: white;
+    border: none;
+    padding: 8px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.btns button:hover{
+    background-color: black;
+    color: #FF4343;;
+}
+.description{
+    max-height: 80px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: normal;
+}
+.main {
+    background-image: url(../imgs/bg.png);
+    background-color: rgba(0, 0, 0, 0.504);
+    background-blend-mode: darken;
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    flex-wrap: wrap;
+    padding: 50px 0;
+}
+.fullApp{
+    height: 100vh;
+    width: 100%;
+}
+
+.Card {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 400px;
+    height: 200px;
+    padding: 15px;
+    background-color: rgba(179, 176, 176, 0.253);
+    border-radius: 15px;
+    backdrop-filter: blur(10px)
+}
+.data {
+    display: flex;
+    flex-direction: column;
+    padding: 0 10px;
+}
+
+.data .price {
+    text-align: right;
+    background-color: #FF4343;;
+    color: white;
+    width: 50px;
+    padding: 5px 10px;
+    cursor: pointer;
+    border-radius: 50px;
+}
+.data .price:hover{
+    background-color: black;
+    color: #FF4343;;
+}
+
+.Card img {
+    height: 150px;
+    width: 150px;
+}
+.itemName{
+    text-transform: uppercase;
+    color: white;
+    font-weight: 600;
+    margin: 0;
+}
+.itemimg{
+    border-radius: 50%;
+    height: 100%;
+}
+.description{
+    color: white;
+    font-weight: 400;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.priceBox{
+    display: flex;
+    justify-content: space-between;
+    flex-flow: row-reverse;
+}
